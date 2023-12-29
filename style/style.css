@@ -1,0 +1,100 @@
+/* stylesheet for landing_page */
+/* General */
+ul li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    line-height: 1;
+    font-family: 'Droid Sans', sans-serif, Arial;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+button, .signup1 {
+    color: white;
+    background-color: #3882f6;
+    width: 130px;
+    height: 30px;
+    padding: 8px 35px 8px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border:0;
+    border-radius: 10px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    gap: 25px;
+}
+
+.header .h-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+/* Intro part */
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 35px;
+}
+
+.wrapped-one h1 {
+    font-size: 48px;
+    font-weight: 1200;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.wrapped-one p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.wrapped-one {
+    max-width: 450px;
+}
+
+.image-placeholder {
+    min-height: 250px;
+    min-width: 450px;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 40px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
